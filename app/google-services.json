@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "582025639938",
+    "firebase_url": "https://twibbon-52812.firebaseio.com",
+    "project_id": "twibbon-52812",
+    "storage_bucket": "twibbon-52812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582025639938:android:29d0fa0c1103b92c",
+        "android_client_info": {
+          "package_name": "id.pahlevikun.twibbon613"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582025639938-kspg3m41srg3r9uld9f9g6sorissvu4s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "582025639938-kspg3m41srg3r9uld9f9g6sorissvu4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjFgBrTJAdadGFQVyNC0Au_qNOj5pWFP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
