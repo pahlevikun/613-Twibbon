@@ -5,4 +5,5 @@
     <string name="button_main_share">share image to social media</string>
     <string name="snackbar_main_pleasecapture">Please select or capture image!</string>
     <string name="snackbar_double_click">Click again for exit!</string>
+    <string name="snackbar_main_success">Success save image, check your gallery!</string>
 </resources>

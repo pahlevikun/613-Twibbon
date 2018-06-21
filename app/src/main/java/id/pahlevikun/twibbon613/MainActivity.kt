@@ -108,6 +108,7 @@ class MainActivity : AppCompatActivity() {
             if (image != null) {
                 isImageSelected = true
                 Glide.with(this).load(image.path).into(imageViewUser)
+                Snackbar.make(coordinatorLayout, getString(R.string.snackbar_main_success), Snackbar.LENGTH_SHORT).show()
             } else {
                 Snackbar.make(coordinatorLayout, getString(R.string.snackbar_main_pleasecapture), Snackbar.LENGTH_SHORT).show()
             }
