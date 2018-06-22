@@ -1,6 +1,7 @@
 package id.pahlevikun.twibbon613
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -80,7 +81,14 @@ class MainActivity : AppCompatActivity() {
                 output = FileOutputStream("$dirPath$fileName")
                 viewToBitmap(frameLayout).compress(Bitmap.CompressFormat.PNG, 90, output)
                 output!!.close()
-                Snackbar.make(coordinatorLayout, getString(R.string.snackbar_main_success), Snackbar.LENGTH_SHORT).show()
+                val alert = android.support.v7.app.AlertDialog.Builder(this)
+                alert.setTitle(getString(R.string.alertDialogInformationTitle))
+                alert.setMessage(getString(R.string.alertDialogInformationSubTitle))
+                alert.setCancelable(false)
+                alert.setPositiveButton(getString(R.string.alertDialogButtonYes)
+                ) { _, _ ->
+                }
+                alert.show()
             } else {
                 Snackbar.make(coordinatorLayout, getString(R.string.snackbar_main_pleasecapture), Snackbar.LENGTH_SHORT).show()
             }

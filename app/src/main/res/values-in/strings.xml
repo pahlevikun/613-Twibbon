@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Twibbon 613</string>
+    <string name="button_main_select">pilih Gambar</string>
+    <string name="button_main_save">simpan gambar</string>
+    <string name="button_main_share">bagikan gambar ke media sosial</string>
+    <string name="snackbar_main_pleasecapture">Mohon pilih gambar atau ambil foto terlebih dahulu!</string>
+    <string name="snackbar_double_click">Tekan kembali untuk keluar</string>
+    <string name="alertDialogInformationTitle">Informasi</string>
+    <string name="alertDialogInformationSubTitle"><![CDATA[Berhasil menyimpan gambar, mohon periksa Galeri atau cari melalui File Manajer di folder Image/Pictures->Twibbon 613]]></string>
+    <string name="alertDialogButtonYes">Ya</string>
+</resources>

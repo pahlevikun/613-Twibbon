@@ -5,5 +5,7 @@
     <string name="button_main_share">share image to social media</string>
     <string name="snackbar_main_pleasecapture">Please select or capture image!</string>
     <string name="snackbar_double_click">Click again for exit!</string>
-    <string name="snackbar_main_success">Success save image, check your gallery!</string>
+    <string name="alertDialogInformationTitle">Information</string>
+    <string name="alertDialogInformationSubTitle"><![CDATA[Success create image, please check your gallery or browse folder under Image/Pictures->Twibbon 613 from your FileManager]]></string>
+    <string name="alertDialogButtonYes">Yes</string>
 </resources>
